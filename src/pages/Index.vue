@@ -101,6 +101,7 @@ export default {
 .banner-img {
   background-image: url("https://cdn.quasar.dev/img/mountains.jpg");
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 360px;

@@ -1,8 +1,8 @@
 {
-    "name": "parallaxlab",
+    "name": "github_api",
     "version": "0.0.1",
     "description": "mylab",
-    "productName": "parallaxlab",
+    "productName": "github_api",
     "cordovaId": "mylab",
     "capacitorId": "",
     "author": "kuma chen",
