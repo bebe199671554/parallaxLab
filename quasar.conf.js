@@ -133,9 +133,9 @@ module.exports = function( /* ctx */ ) {
             workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
             workboxOptions: {}, // only for GenerateSW
             manifest: {
-                name: 'parallaxlab',
-                short_name: 'parallaxlab',
-                description: 'kuma chen',
+                name: 'git_api_side_project',
+                short_name: 'git_api',
+                description: 'git_api',
                 display: 'standalone',
                 orientation: 'portrait',
                 background_color: '#ffffff',
@@ -200,7 +200,7 @@ module.exports = function( /* ctx */ ) {
             builder: {
                 // https://www.electron.build/configuration/configuration
 
-                appId: 'parallaxlab'
+                appId: 'git_api'
             },
 
             // More info: https://quasar.dev/quasar-cli/developing-electron-apps/node-integration
