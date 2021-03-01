@@ -8,7 +8,7 @@
           <q-btn flat round color="primary" icon="link" type="a" :href="repoItem.html_url" />
         </div>
 
-        <div class="text-caption text-grey">使用語言</div>
+        <div class="text-caption text-grey">Github 分類標籤</div>
 
         <div class="q-py-sm q-gutter-md" v-if="repoItem.language">
           <q-chip

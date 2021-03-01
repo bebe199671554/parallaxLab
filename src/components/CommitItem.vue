@@ -1,18 +1,17 @@
 <template>
   <q-item>
     <q-item-section>
-      <q-item-label>{{commitItem.commit.committer.name}}</q-item-label>
+      <q-item-label>提交者：{{commitItem.commit.committer.name}}</q-item-label>
       <q-item-label
         caption
         lines="2"
       >
-      {{commitItem.commit.message}}
+     提交訊息: {{commitItem.commit.message}}
       </q-item-label>
     </q-item-section>
 
     <q-item-section side top>
       <q-item-label caption>{{commitItem.commit.committer.date}}</q-item-label>
-      <!-- <q-icon name="star" color="yellow" /> -->
     </q-item-section>
   </q-item>
 </template>
